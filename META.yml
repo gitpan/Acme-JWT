@@ -1,10 +1,10 @@
 ---
-abstract: ~
+abstract: 'JWT utilities.'
 author:
   - 'NAGAYA Shinichiro <clairvy@gmail.com>'
 build_requires:
   ExtUtils::MakeMaker: 6.42
-  Test::More: 0
+  Test::More: 0.87_01
 configure_requires:
   ExtUtils::MakeMaker: 6.42
 distribution_type: module
@@ -28,4 +28,4 @@ requires:
 resources:
   license: http://dev.perl.org/licenses/
   repository: git://github.com/clairvy/p5-Acme-JWT.git
-version: 0.01
+version: 0.02
